@@ -148,24 +148,6 @@
                 <artifactId>commons-beanutils</artifactId>
                 <version>${beanUtils.version}</version>
             </dependency>
-
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>dubbo</artifactId>
-                <version>${dubbo.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.101tec</groupId>
-                <artifactId>zkclient</artifactId>
-                <version>${zkclient.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.gitee.reger</groupId>
-                <artifactId>spring-boot-starter-dubbo</artifactId>
-                <version>${dubbo-starter.version}</version>
-            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>

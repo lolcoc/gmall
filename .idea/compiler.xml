@@ -9,6 +9,8 @@
         <module name="gmall-bean" />
         <module name="gmall-common-util" />
         <module name="gmall-interface" />
+        <module name="gmall-manager-service" />
+        <module name="gmall-manager-web" />
         <module name="gmall-order-web" />
         <module name="gmall-service-util" />
         <module name="gmall-usermanage" />
@@ -19,6 +21,8 @@
       <module name="gmall-bean" target="1.8" />
       <module name="gmall-common-util" target="1.8" />
       <module name="gmall-interface" target="1.8" />
+      <module name="gmall-manager-service" target="1.8" />
+      <module name="gmall-manager-web" target="1.8" />
       <module name="gmall-order-web" target="1.8" />
       <module name="gmall-parent" target="1.8" />
       <module name="gmall-service-util" target="1.8" />

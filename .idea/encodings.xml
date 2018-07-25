@@ -4,6 +4,8 @@
     <file url="file://$PROJECT_DIR$/gmall-bean" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gmall-common-util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gmall-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-manager-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-manager-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gmall-order-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gmall-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gmall-service-util" charset="UTF-8" />

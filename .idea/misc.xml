@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/gmall-parent/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-usermanage/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-order-web/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-manager-service/pom.xml" />
       </list>
     </option>
   </component>
