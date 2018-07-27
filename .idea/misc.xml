@@ -11,7 +11,9 @@
         <option value="$PROJECT_DIR$/gmall-order-web/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-manager-web/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-manager-service/pom.xml" />
+        <option value="$PROJECT_DIR$/fastdfs-client-java/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
