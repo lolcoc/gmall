@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台主界面</title>
+
+    <script type="text/javascript" src="/easyui/jquery.min.js"></script>
+    <script type="text/javascript" src="/easyui/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/easyui/easyloader.js"></script>
+    <link rel="stylesheet" type="text/css" href="/easyui/themes/icon.css">
+    <link rel="stylesheet" type="text/css"  href="/easyui/themes/default/easyui.css">
+
+
+    <link rel="stylesheet" type="text/css" href="/webuploader/webuploader.css">
+    <script type="text/javascript" src="/webuploader/webuploader.js"></script>
+    <script type="text/javascript" src="/easyui/datagrid-detailview.js"></script>
+</head>
+<body class="easyui-layout">
+<div data-options="region:'north',title:'头部',split:true" style="height:100px;">
+    <h1> 谷粒商城 </h1>
+</div>
+<div data-options="region:'south',title:'底部',split:true" style="height:100px; text-align: center" >
+    <h1><span style="text-align: center"> 联系电话：13813810086 </span></h1>
+</div>
+<div data-options="region:'west',title:'左部',split:true" style="width:200px;">
+    <div class="easyui-accordion" style="overflow:auto;">
+        <div title="基本信息管理">
+            <ul class="nav">
+                <!--第一个参数是tab的title名称，第二个是控制器的url-->
+                <li><a href="javascript:add_tab('平台属性管理','attrListPage')" style="text-decoration:none;">平台属性管理</a></li>
+            </ul>
+        </div>
+        <div title="商品信息管理">
+            <ul class="nav">
+                <!--第一个参数是tab的title名称，第二个是控制器的url-->
+                <li><a href="javascript:add_tab('SPU管理','spuListPage')" style="text-decoration:none;">SPU管理</a></li>
+            </ul>
+        </div>
+        <div title="广告管理">
+            <h1>广告管理</h1>
+        </div>
+    </div>
+
+</div>
+<div data-options="region:'center',title:'中部'"  >
+    <!--添加选项卡-->
+    <div id="tt" class="easyui-tabs" style="width:100%;height:100%;" >
+    </div>
+</div>
+</body>
+
+<!--添加javascript-->
+<script type="text/javascript">
+    function add_tab(title,url) {
+        /*避免tab中出现重复窗口*/
+        if($("#tt").tabs('exists',title)){
+            $("#tt").tabs('select',title);
+        }else{
+            $("#tt").tabs('add',{
+                title:title,
+                href:url,
+                closable:true
+            });
+        }
+
+    }
+
+</script>
+
+
+</html>
