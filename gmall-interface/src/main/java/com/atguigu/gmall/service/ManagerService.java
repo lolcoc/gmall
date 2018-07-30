@@ -24,4 +24,10 @@ public interface ManagerService {
     List<BaseSaleAttr> gerBaseSaleAttrList();
 
     void saveSpuInfo(SpuInfo spuInfo);
+
+    List<SpuSaleAttr> getSpuSaleAttrList(String spuId);
+
+    List<SpuImage> getSpuImageList(String spuId);
+
+    void saveSku(SkuInfo skuInfo);
 }

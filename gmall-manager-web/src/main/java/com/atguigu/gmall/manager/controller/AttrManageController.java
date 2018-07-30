@@ -71,4 +71,23 @@ public class AttrManageController {
             return managerService.getSpuListPage(spuInfo);
     }
 
+    @RequestMapping("spuSaleAttrList")
+    @ResponseBody
+    public List<SpuSaleAttr> getSpuSaleAttrList(String spuId){
+        return managerService.getSpuSaleAttrList(spuId);
+    }
+
+    @RequestMapping("spuImageList")
+    @ResponseBody
+    public List<SpuImage> getSpuImageList(String spuId){
+        List<SpuImage> spuImages = managerService.getSpuImageList(spuId);
+        return spuImages;
+    }
+
+    @RequestMapping(value = "saveSku",method = RequestMethod.POST)
+    @ResponseBody
+    public String saveSku(SkuInfo skuInfo){
+        managerService.saveSku(skuInfo);
+        return "success";
+    }
 }
